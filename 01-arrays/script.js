@@ -42,7 +42,8 @@ console.log(teachers)
 
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
 
-
+const new_teacher = teachers.unshift('Sarah')
+console.log(teachers);
 
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
