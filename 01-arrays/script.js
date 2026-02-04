@@ -37,11 +37,17 @@ console.log(teachers);
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
+const newTeacher = teachers.push('Vanessa')
+console.log(teachers)
+
 // 6. Aggiungi un insegnante di nome 'Sarah' all'inizio dell'array teachers
+
+
+
 
 // 7. Trova l'indice dell'insegnante 'Lewis' nell'array teachers
 // e salvalo nella variabile lewisIndex
-const lewisIndex = null;
+const lewisIndex = [5];
 
 // 8. Verifica se l'array teachers è vuoto
 // e salva il risultato nella variabile isTeachersEmpty
